@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+p,
+.p1 {
+    font-family: poppins;
+}
+
+.team {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: auto;
+}
+
+.team .team-member {
+    text-align: center;
+    width: 31%;
+    padding-bottom: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 0px 0px 30px #e4d0d0;
+    border-radius: 4px;
+}
+
+
+
+.team h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #e4ebe5;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 40px;
+    display: block;
+    background-color: indigo;
+    
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 30px #c8a9a94d;
+    border: 5px solid #c8c3c3;
+}
+
+.team-member h2 {
+    font-family: poppins;
+}
+
+
+
+/* ================= student data structure==================== */
+
+
+.student{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: auto;
+}
+.student h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #e4ebe5;
+    width: 1200px;
+    margin: auto;
+    margin: 80px 0 40px;
+    display: block;
+    background-color: rgb(206, 84, 151);
+    position: relative;
+    
+}
+.student-data td {
+    font-size: 17px;
+    width: 226px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-family: poppins;
+}
+td img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.student-data tbody tr:nth-child(even) {
+    background: rgb(240, 238, 238);
+}
+.student-data tr th:nth-child(odd){
+    background: #e67e22;
+    color: #fff;
+}
+.student-data tr th:nth-child(even){
+    background: #f39c12;
+    color: #fff;
+}
+.student-data tr th{
+   padding: 20px;
+
+}
+
+/* =============phone book============= */
+
+.phone {
+    margin-bottom: 60px;
+}
+.phone h1{
+    text-align: center;
+    font-size: 60px;
+    color: #e4ebe5;
+    width: 1200px;
+    margin: auto;
+    margin: 80px 0 40px;
+    display: block;
+    background-color: rgb(9, 161, 85);
+    position: relative;
+    left: 12%;
+}
+
+.family-phone tr th{
+    width: 300px;
+    font-size: 30px;
+    border: 1px solid #ddd;
+}
+.family-phone tr th:nth-child(odd){
+    background-color: blueviolet;
+    color: #fff;
+}
+.family-phone tr th:nth-child(even){
+    background-color: rgb(43, 226, 171);
+    color: rgb(83, 77, 77);
+}
+.family-phone tr td{
+    text-align: center;
+    padding: 20px;
+}
+
+.family-phone table{
+    width: 1200px;
+    margin: auto;
+    
+}
+
+tbody tr:nth-child(odd) {
+    background: #ddd;
+}
+tbody tr:nth-child(even) {
+    background: rgb(233, 170, 170);
+}
+tbody tr td {
+    padding: 20px;
+    font-size: 20px;
+    font-family: Poppins;
+   
+}
+thead tr th{
+    font-family: poppins;
+}
+
