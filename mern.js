@@ -90,8 +90,8 @@ fam.map((data, index) => {
     <td>${index+1}</td>
     <td>${data.Name}</td>
     <td>${data.rel}</td>
-    <td>${data.loc}</td>
     <td>${data.phn}</td>
+    <td>${data.loc}</td>
     </tr>  
     `
 })
